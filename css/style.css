@@ -5,20 +5,41 @@
 	padding: 0;
 }
 
+.d-tablet-none {
+	display: none;
+}
+
 /*UTILS*/
 .container {
 	margin: 0 auto;
-	padding: 0 10px;
 	max-width: 100%;
+	padding: 20px 10px;
 }
 
 h1 {
 	font-size: 2.5rem;
 }
 
+h2 {
+	padding: 5px 0 15px;
+	font-size: 1.8rem;
+}
+
+h3 {
+	padding: 10px 0 20px;
+	font-weight: 900;
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-weight: 800;
+	font-size: 1.2rem;
+	padding-bottom: 30px;
+}
+
 img {
+	display: inline-block;
 	max-width: 100%;
-	padding: 15px 50px;
 }
 
 ul {
@@ -30,42 +51,96 @@ header {
 	text-align: center;
 	font-family: Nerko One, coursive;
 	color: rgb(255, 150, 20);
+	padding: 10px;
 }
 
 /*MAIN*/
-body {
+main {
 	font-family: montserrat, sans-serif;
 }
 
 main .container {
-	background-color: rgb(246, 245, 243);
-	padding: 20px;
-}
-
-iframe {
-	max-width: 100%;
+	background-color: brown;
 }
 
 .video {
 	background-color: white;
 }
 
+.description {
+	padding: 30px 20px;
+}
+
+.description li {
+	line-height: 30px;
+}
+
 .social {
 	display: flex;
 	justify-content: space-between;
-	margin: 10px 0;
+	margin: 20px 0;
 }
 
 .social button {
 	padding: 10px;
-	border-radius: 50%;
+	border-radius: 20px;
+	border-style: none;
 	background-color: white;
 }
 
+.fa-facebook {
+	color: blue;
+}
+
+.fa-twitter {
+	color: rgb(0, 158, 255);
+}
+
+.fa-instagram {
+	color: rgb(220, 63, 163);
+}
+
+.fa-pinterest {
+	color: rgb(230, 34, 34);
+}
+
+.fa-youtube {
+	color: rgb(230, 34, 34);
+}
+
+hr {
+	width: 20%;
+	color: orange;
+}
+
+.presentation img {
+	width: 50%;
+}
+
+.presentation div {
+	text-align: center;
+	padding-top: 20px;
+}
+
+p {
+	padding-top: 10px;
+}
+
+/*FOOTER*/
 footer {
 	background-color: rgb(124, 105, 164);
 	color: white;
 	text-align: center;
+	padding: 20px 0;
+}
+
+.società {
+	line-height: 25px;
+	font-weight: bolder;
+}
+
+.indirizzo {
+	line-height: 30px;
 }
 
 .nav li {
@@ -75,4 +150,5 @@ footer {
 
 .nav a {
 	color: white;
+	line-height: 30px;
 }

@@ -25,6 +25,7 @@
 			referrerpolicy="no-referrer"
 		/>
 		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/mediaquery.css" />
 		<title>GIALLO BOOLEANO</title>
 	</head>
 	<body>
@@ -34,30 +35,26 @@
 		<main>
 			<div class="container">
 				<div>
-					<h3>DOLCI E DESSERTS</h3>
-					<h2>Tiramisù</h2>
+					<div>DOLCI E DESSERTS</div>
+					<h3>
+						Tiramisù
+						<span class="d-tablet-none d-tablet-inline"
+							>(Dolce Tradizionale)</span
+						>
+					</h3>
 				</div>
 				<div class="video">
 					<div>
-						<iframe
-							width="560"
-							height="315"
-							src="https://www.youtube.com/embed/JVT900H6s0g?si=xT_aXaVGSkWb8IJj"
-							title="YouTube video player"
-							frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerpolicy="strict-origin-when-cross-origin"
-							allowfullscreen
-						></iframe>
+						<img src="./img/image (10).png" alt="tiramisùvideo" />
 					</div>
-					<div>
-						<h3>In breve</h3>
+					<div class="description">
+						<h4>In breve</h4>
 						<ul>
-							<li>Difficoltà: Facile</li>
-							<li>Tempo: 40 min</li>
-							<li>Porzione per: 8 persone</li>
-							<li>Costo: contenuto</li>
-							<li>Note: +2 ore di riposo in frigo</li>
+							<li>Difficoltà: <b>Facile</b></li>
+							<li>Tempo: <b>40 min</b></li>
+							<li>Porzione per: <b>8 persone</b></li>
+							<li>Costo: <b>contenuto</b></li>
+							<li><b>Note</b>: +2 ore di riposo in frigo</li>
 						</ul>
 					</div>
 				</div>
@@ -68,10 +65,13 @@
 					<button><i class="fa-brands fa-pinterest"></i></button>
 					<button><i class="fa-brands fa-youtube"></i></button>
 				</div>
-				<div>
+				<div class="d-tablet-none d-tablet-inline">
+					<img src="./img/banner.png" alt="ads" />
+				</div>
+				<div class="presentation">
 					<h2>PRESENTATION</h2>
 					<hr />
-					<img src="./img/tiramisu.jpg" alt="tiramisù" />
+					<div><img src="./img/tiramisu.jpg" alt="tiramisù" /></div>
 					<p>
 						Back in the day, grandmothers used to prepare a breakfast thtat we
 						might call humble today, but was considered very rich at that time!
@@ -96,8 +96,10 @@
 		</main>
 		<footer>
 			<div>
-				<h3>2021 Giallo Booleano S.p.a</h3>
-				<div>Via dei tali, 10 - 88046 Lamezia Terme - VAT 43940293020</div>
+				<div class="società">2021 Giallo Booleano S.p.a</div>
+				<div class="indirizzo">
+					Via dei tali, 10 - 88046 Lamezia Terme - VAT 43940293020
+				</div>
 			</div>
 			<div class="nav">
 				<ul>
