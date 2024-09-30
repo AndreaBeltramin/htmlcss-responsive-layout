@@ -7,8 +7,8 @@
 		padding: 40px 40px;
 	}
 
-	h1 {
-		font-size: 3rem;
+	h2 {
+		font-size: 2.2rem;
 	}
 
 	.d-tablet-inline {
@@ -23,7 +23,8 @@
 	}
 
 	.social button {
-		padding: 10px 55px;
+		flex-grow: 1;
+		margin-right: 10px;
 	}
 
 	.presentation {
@@ -33,5 +34,45 @@
 	.presentation img {
 		float: left;
 		padding: 5px 10px 0 0;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.container {
+		padding: 40px 80px;
+	}
+
+	h2 {
+		font-size: 2.5rem;
+	}
+
+	.description ul {
+		display: inline;
+	}
+
+	.video {
+		display: flex;
+	}
+
+	.video img {
+		width: 70%;
+	}
+
+	.d-desktop-inline {
+		display: inline;
+	}
+
+	.social i {
+		display: inline;
+	}
+
+	footer {
+		display: flex;
+		justify-content: space-between;
+		padding: 20px 20px;
+	}
+
+	.società {
+		text-align: left;
 	}
 }

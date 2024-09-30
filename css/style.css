@@ -9,6 +9,10 @@
 	display: none;
 }
 
+.d-desktop-none {
+	display: none;
+}
+
 /*UTILS*/
 .container {
 	margin: 0 auto;
@@ -21,14 +25,15 @@ h1 {
 }
 
 h2 {
-	padding: 5px 0 15px;
-	font-size: 1.8rem;
+	padding: 10px 0 20px;
+	font-weight: 800;
+	font-size: 1.6rem;
 }
 
 h3 {
-	padding: 10px 0 20px;
-	font-weight: 900;
+	padding: 5px 0 15px;
 	font-size: 1.5rem;
+	font-weight: 500;
 }
 
 h4 {
@@ -39,7 +44,7 @@ h4 {
 
 img {
 	display: inline-block;
-	max-width: 100%;
+	width: 100%;
 }
 
 ul {
@@ -60,7 +65,7 @@ main {
 }
 
 main .container {
-	background-color: brown;
+	background-color: rgb(246, 245, 243);
 }
 
 .video {
@@ -109,12 +114,12 @@ main .container {
 }
 
 hr {
-	width: 20%;
+	width: 10%;
 	color: orange;
 }
 
 .presentation img {
-	width: 50%;
+	max-width: 50%;
 }
 
 .presentation div {
