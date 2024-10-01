@@ -5,19 +5,11 @@
 	padding: 0;
 }
 
-.d-tablet-none {
-	display: none;
-}
-
-.d-desktop-none {
-	display: none;
-}
-
 /*UTILS*/
 .container {
 	margin: 0 auto;
 	max-width: 100%;
-	padding: 20px 10px;
+	padding: 20px 20px;
 }
 
 h1 {
@@ -43,7 +35,6 @@ h4 {
 }
 
 img {
-	display: inline-block;
 	width: 100%;
 }
 
@@ -51,10 +42,18 @@ ul {
 	list-style-type: none;
 }
 
+.d-tablet-none {
+	display: none;
+}
+
+.d-desktop-none {
+	display: none;
+}
+
 /*HEADER*/
-header {
-	text-align: center;
+.page-header {
 	font-family: Nerko One, coursive;
+	text-align: center;
 	color: rgb(255, 150, 20);
 	padding: 10px;
 }
@@ -114,29 +113,32 @@ main .container {
 }
 
 hr {
-	width: 10%;
+	width: 20%;
 	color: orange;
 }
 
 .presentation img {
-	max-width: 50%;
+	max-width: 60%;
 }
 
 .presentation div {
+	padding: 20px 0 10px;
 	text-align: center;
-	padding-top: 20px;
 }
 
 p {
-	padding-top: 10px;
+	line-height: 32px;
+	padding-bottom: 20px;
 }
 
 /*FOOTER*/
-footer {
+
+.footer-container {
 	background-color: rgb(124, 105, 164);
-	color: white;
+	max-width: 100%;
+	padding: 20px 30px;
 	text-align: center;
-	padding: 20px 0;
+	color: white;
 }
 
 .società {
@@ -144,8 +146,8 @@ footer {
 	font-weight: bolder;
 }
 
-.indirizzo {
-	line-height: 30px;
+.nav {
+	padding-top: 10px;
 }
 
 .nav li {
