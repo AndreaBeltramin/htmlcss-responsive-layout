@@ -5,6 +5,22 @@
 	padding: 0;
 }
 
+main,
+footer {
+	font-family: "Montserrat", serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+main {
+	background-color: rgb(246, 245, 243);
+}
+
+header {
+	font-family: "Nerko One", cursive;
+	font-style: normal;
+}
+
 /*UTILS*/
 .container {
 	margin: 0 auto;
@@ -13,25 +29,31 @@
 }
 
 h1 {
-	font-size: 2.5rem;
+	font-weight: 800;
+	font-size: 1.5rem;
+	color: rgb(78, 57, 105);
+	margin: 10px 0;
 }
 
 h2 {
-	padding: 10px 0 20px;
-	font-weight: 800;
-	font-size: 1.6rem;
+	font-size: 2.5rem;
 }
 
 h3 {
-	padding: 5px 0 15px;
 	font-size: 1.5rem;
-	font-weight: 500;
+	font-weight: 600;
+	margin-bottom: 10px;
 }
 
 h4 {
-	font-weight: 800;
+	font-weight: 300;
+	font-size: 1rem;
+}
+
+h5 {
+	font-weight: bold;
 	font-size: 1.2rem;
-	padding-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 img {
@@ -51,42 +73,33 @@ ul {
 }
 
 /*HEADER*/
-.page-header {
-	font-family: Nerko One, coursive;
+.page-header > h2 {
 	text-align: center;
 	color: rgb(255, 150, 20);
-	padding: 10px;
 }
 
 /*MAIN*/
-main {
-	font-family: montserrat, sans-serif;
-}
-
-main .container {
-	background-color: rgb(246, 245, 243);
-}
-
 .video {
 	background-color: white;
 }
 
 .description {
-	padding: 30px 20px;
+	padding: 20px 20px 30px;
 }
 
 .description li {
 	line-height: 30px;
+	font-size: 0.9rem;
 }
 
 .social {
 	display: flex;
 	justify-content: space-between;
-	margin: 20px 0;
+	margin: 25px 0;
 }
 
 .social button {
-	padding: 10px;
+	padding: 10px 15px;
 	border-radius: 20px;
 	border-style: none;
 	background-color: white;
@@ -113,8 +126,9 @@ main .container {
 }
 
 hr {
-	width: 20%;
-	color: orange;
+	width: 70px;
+	border: 1px solid;
+	color: rgb(247, 166, 78);
 }
 
 .presentation img {
@@ -136,14 +150,14 @@ p {
 .footer-container {
 	background-color: rgb(124, 105, 164);
 	max-width: 100%;
-	padding: 20px 30px;
+	padding: 30px;
 	text-align: center;
 	color: white;
 }
 
 .società {
-	line-height: 25px;
 	font-weight: bolder;
+	margin-bottom: 5px;
 }
 
 .nav {
@@ -153,9 +167,9 @@ p {
 .nav li {
 	display: inline;
 	padding-inline: 10px;
+	line-height: 40px;
 }
 
 .nav a {
 	color: white;
-	line-height: 30px;
 }

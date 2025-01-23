@@ -1,14 +1,17 @@
 @media screen and (min-width: 768px) {
-	.page-header {
+	.page-header > h2 {
 		text-align: left;
+		margin-left: 20px;
+		font-size: 2.8rem;
+	}
+
+	h1 {
+		font-size: 2rem;
+		margin-bottom: 15px;
 	}
 
 	.container {
 		padding: 40px 40px;
-	}
-
-	h2 {
-		font-size: 2.2rem;
 	}
 
 	.d-tablet-inline {
@@ -21,9 +24,18 @@
 		flex-wrap: wrap;
 	}
 
+	.description li {
+		line-height: 50px;
+	}
+
 	.social button {
 		flex-grow: 1;
 		margin-right: 10px;
+	}
+
+	h3 {
+		margin-top: 20px;
+		font-size: 1.8rem;
 	}
 
 	.presentation img {
@@ -35,15 +47,21 @@
 
 @media screen and (min-width: 992px) {
 	.container {
-		padding: 40px 185px;
+		padding: 40px 0;
+		margin: 0 auto;
+		max-width: 1000px;
 	}
 
-	h2 {
-		font-size: 2.5rem;
+	.page-header > h2 {
+		font-size: 3rem;
 	}
 
 	.description ul {
 		display: inline;
+	}
+
+	.description li {
+		line-height: 30px;
 	}
 
 	.video {
@@ -58,17 +76,18 @@
 		display: inline;
 	}
 
-	.social i {
-		display: inline;
-	}
-
 	.footer-container {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 		padding: 20px 20px;
 	}
 
 	.società {
 		text-align: left;
+	}
+
+	.nav {
+		padding-top: 0;
 	}
 }
